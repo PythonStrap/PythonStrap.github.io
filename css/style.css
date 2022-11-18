@@ -1,0 +1,135 @@
+body {
+  font-family: "Roboto Mono", monospace, "Poppins", sans-serif;
+  line-height: 1.2;
+  font-size: 16px;
+  margin: 0px 0px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header header header"
+    "main main main nav"
+    "footer footer footer nav ";
+}
+main {
+  background-color: #001e57;
+  padding: 5px;
+  grid-area: main;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #001e57;
+  padding: 5px;
+  grid-area: footer;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #001e57;
+  color: #ffffff;
+  padding: 5px;
+  grid-area: header;
+  border-bottom: solid;
+  border-width: 1px;
+  border-bottom-color: #ffffff;
+}
+nav {
+  grid-area: nav;
+  border-color: #001e57;
+  display: flex;
+}
+nav ul li {
+  list-style-type: none;
+  margin: 5px;
+  padding: 28px;
+  font-size: 15px;
+}
+nav ul {
+  display: inline;
+  justify-items: center;
+  position: fixed;
+  font-size: 15px;
+}
+
+section {
+  margin: 5px;
+  padding: 30px 10px;
+}
+
+#photos h2,
+figure {
+  padding: 15px 10px;
+}
+
+#photos figure {
+  border-bottom: 1px solid;
+  padding: 15px;
+}
+
+#photos img {
+  margin: 15px;
+}
+
+#geography article,
+dd {
+  padding: 15px 10px;
+}
+
+section dt {
+  border-bottom: 1px solid;
+  padding: 20px;
+}
+
+#people-and-society article,
+td,
+p {
+  padding: 20px;
+}
+
+table,
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+th,
+td {
+  border: solid;
+  border-width: 1px;
+}
+td:hover {
+  background-color: #ffffff;
+  color: #009900;
+  border: #ffffff solid;
+}
+
+#people-and-society h3 {
+  font-size: 15px;
+  border-bottom: 1px solid;
+  padding: 20px;
+}
+
+#people-and-society aside {
+  padding: 15px;
+}
+#government article,
+dd {
+  padding: 15px 10px;
+}
+
+a,
+a:link,
+a:visited {
+  color: #009900;
+  text-decoration: none;
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #ff9900;
+}
+
