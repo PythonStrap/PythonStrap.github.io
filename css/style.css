@@ -4,13 +4,15 @@ body {
   font-size: 16px;
   margin: 0px 0px;
   min-height: 100vh;
+  max-width: 600px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 2fr 2fr 1fr 1fr;
   grid-template-areas:
     "header header header header"
     "main main main nav"
     "footer footer footer nav ";
 }
+
 main {
   background-color: #001e57;
   padding: 5px;
@@ -34,27 +36,28 @@ header {
   border-bottom: solid;
   border-width: 1px;
   border-bottom-color: #ffffff;
+  width: 100vw;
 }
+
 nav {
   grid-area: nav;
   border-color: #001e57;
   display: flex;
+  flex-direction: column;
 }
 nav ul li {
   list-style-type: none;
-  margin: 5px;
-  padding: 28px;
-  font-size: 15px;
+  margin: 0px;
+  padding: 35px 0px;
+  font-size: 18px;
 }
 nav ul {
-  display: inline;
-  justify-items: center;
   position: fixed;
   font-size: 15px;
 }
 
 section {
-  margin: 5px;
+  margin: 15px;
   padding: 30px 10px;
 }
 
@@ -64,12 +67,22 @@ figure {
 }
 
 #photos figure {
-  border-bottom: 1px solid;
-  padding: 15px;
+  display: grid;
+  grid-template-columns: 70% 30%;
+  margin: 5px 0 0 0;
+  padding: 10px;
+  grid-gap: 2px;  
+}
+#photos img {
+  margin: 10px;
+  max-width: 300px;
+  height: auto;
 }
 
-#photos img {
-  margin: 15px;
+figure figcaption {
+  border-bottom: 1px solid;
+  height: 21%;
+  line-height: 1.4;
 }
 
 #geography article,
@@ -125,7 +138,7 @@ a:link,
 a:visited {
   color: #009900;
   text-decoration: none;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Georgia, "Times New Roman", sans-serif;
 }
 
 a:hover {
