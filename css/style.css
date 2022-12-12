@@ -160,7 +160,7 @@ Membership page css
 */
 
 #membership-content {
-  background-image: url("images/three-women-dancing.jpg"); 
+  background-image: url("/images/three-women-dancing.jpg"); 
   background-attachment: fixed;
   background-size: cover;
 }
