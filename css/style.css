@@ -204,7 +204,6 @@ Team page css
   margin: 5px;
   color: #7736d7;
   justify-content: space-around;
-  flex-shrink: 1;
 }
 
 dt {
