@@ -190,6 +190,7 @@ Events page css
 /*
 Team page css
 */
+
 #team-content {
   background-color: #ffffff;
   padding: 10px;
@@ -211,6 +212,7 @@ dt {
 }
 
 dd{
+  padding-top: 10px;
   color: #000000;
 }
 
