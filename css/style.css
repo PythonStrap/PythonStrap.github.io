@@ -160,7 +160,7 @@ Membership page css
 */
 
 #membership-content {
-  background-image: url("https://github.com/PythonStrap/PythonStrap.github.io/blob/d32944a67ef785b026e8e847329061b5bea99b53/images/three-women-dancing.jpg"); 
+  background-image: url("images/three-women-dancing.jpg"); 
   background-attachment: fixed;
   background-size: cover;
 }
