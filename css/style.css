@@ -215,6 +215,10 @@ Team page css
   flex-shrink: 1;
 }
 
+dd{
+  color: #000000;
+}
+
 dt {
   font-size: 19px;
 }
