@@ -165,7 +165,7 @@ Membership page css
 #membership-content h2 {
   font-size: 25px;
   padding-top: 5px;
-  color: white;
+  color: #FFFFFF;
 }
 
 #membership-content p {
@@ -197,7 +197,6 @@ Team page css
 
 #team-content h3 {
   color: #7736d7;
-  text-align: center;
 }
 
 #team-content article {
@@ -212,9 +211,13 @@ dt {
   font-size: 19px;
 }
 
+dd{
+  color: #000000;
+}
+
 footer {
   grid-area: footer;
-  background-color: black;
+  background-color: #000000;
   color: #d2c4e7;
   display: flex;
   gap: 15px;
