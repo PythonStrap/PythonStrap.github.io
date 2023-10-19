@@ -6,7 +6,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto 1fr auto;
-  grid-template-areas:
+  grid-template-areas:   
     "header nav nav"
     "main main main"
     "footer footer footer";
@@ -100,7 +100,7 @@ p {
 
 #quote {
   background-color: #d2c4e7;
-  border: solid #d67f00 2px;
+  
 }
 
 #quote p {
@@ -144,10 +144,19 @@ p {
 
 #socials li {
   display: inline-block;
-  color: #e88f0e;
-  padding: 15px;
-  font-size: 18px;
+  color: #d2c4e7;
+  padding: 20px;
+  font-size: 22px;
 }
+
+.icons li{
+     transition: transform 0.3s ease-in-out;
+}
+
+.icons li:hover{
+    transform: translateY(-8px)
+}
+
 /*
 Membership page css
 */
@@ -165,7 +174,7 @@ Membership page css
 #membership-content h2 {
   font-size: 25px;
   padding-top: 5px;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 #membership-content p {
@@ -190,7 +199,6 @@ Events page css
 /*
 Team page css
 */
-
 #team-content {
   background-color: #ffffff;
   padding: 10px;
@@ -211,8 +219,7 @@ dt {
   font-size: 19px;
 }
 
-dd{
-  padding-top: 10px;
+dd {
   color: #000000;
 }
 
